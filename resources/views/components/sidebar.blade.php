@@ -22,7 +22,7 @@
             'icon' => 'fas fa-shopping-cart',
         ])
         @include('components.list-sidebar', [
-            'route' => route('menu.index'),
+            'route' => route('report.index'),
             'title' => 'Laporan',
             'activePattern' => 'report*',
             'icon' => 'fas fa-file-alt',
