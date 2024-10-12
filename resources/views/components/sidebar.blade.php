@@ -16,7 +16,7 @@
             'icon' => 'fas fa-clipboard-list',
         ])
         @include('components.list-sidebar', [
-            'route' => route('menu.index'),
+            'route' => route('order.index'),
             'title' => 'Daftar Pesanan',
             'activePattern' => 'orders*',
             'icon' => 'fas fa-shopping-cart',

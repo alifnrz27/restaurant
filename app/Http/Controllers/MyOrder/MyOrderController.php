@@ -44,10 +44,4 @@ class MyOrderController extends Controller
 
         return view('my-order.show', $data);
     }
-
-    public function edit($id){
-        $data['title'] = 'Edit Orderan Saya';
-
-        return view('my-order.edit', $data);
-    }
 }
