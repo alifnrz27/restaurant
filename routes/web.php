@@ -9,7 +9,7 @@ use App\Http\Controllers\Report\ReportController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect(route('auth.login'));
 });
 
 Route::get('login', [LoginController::class, 'index'])->name('auth.login');
